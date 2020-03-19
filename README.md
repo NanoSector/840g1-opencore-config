@@ -78,7 +78,7 @@ See the ACPI subfolder.
 - `PciRoot(0x0)/Pci(0x1b,0x0)`: IDT 92HD91BXX
     - `layout-id`: `84`, used to tell AppleALC which layout ID to pick to get the onboard sound working.
 - `PciRoot(0x0)/Pci(0x2,0x0)`: Intel HD Graphics 4400
-    - `ig-platform-id`: `0x19120001` (reversed) to enable a connectorless mode for the onboard graphics. Used to get acceleration working in various areas.
+    - `ig-platform-id`: `0x0A260006` (reversed)
 - `PciRoot(0x0)/Pci(0x1c,0x3)/Pci(0x0,0x0)`: Broadcom BCM43224
     - `brcmfx-country`: `NL` to make optimal use out of the Broadcom card and to reduce possible interference with surrounding devices.
 
